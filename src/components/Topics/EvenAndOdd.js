@@ -21,8 +21,8 @@ class EvenAndOdd extends Component {
 
     userInput.split(",").forEach((input) => {
       input % 2 === 0
-        ? evens.push(parseInt(input))
-        : odds.push(parseInt(input));
+        ? evens.push(parseInt(input, 10))
+        : odds.push(parseInt(input, 10));
     });
 
     this.setState({ evenArray: evens, oddArray: odds });
