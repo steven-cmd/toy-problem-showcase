@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import FizzBuzz from "../Topics/FizzBuzz";
 import EvenAndOdd from "../Topics/EvenAndOdd";
 import FilterObject from "../Topics/FilterObject";
 import FilterString from "../Topics/FilterString";
@@ -9,6 +10,7 @@ class TopicBrowser extends Component {
   render() {
     return (
       <div>
+        <FizzBuzz />
         <EvenAndOdd />
         <FilterObject />
         <FilterString />
